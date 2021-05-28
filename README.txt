@@ -41,4 +41,24 @@ This is an automation testing project using Testcafe and the Page Object Model f
 
 - A roles folder also exists with a roles file, current roles are: validUser and invalidUser
 
+- To run the tests you can execute the following in the terminal while being at your "qa_frontend_challenge" folder:
+
+    All tests: 
+	testcafe chrome ./frontend_challenge_pom/tests
+    
+	Login tests: 
+    testcafe chrome './frontend_challenge_pom/tests/login.test.js'
+	
+	Products tests: 
+	testcafe chrome ./frontend_challenge_pom/tests/products.tests.js
+    
+	
+	Shoppingcart tests: 
+	testcafe chrome ./frontend_challenge_pom/tests/shoppingcart.tests.js
+    
+	Checkout information tests: 
+	testcafe chrome './frontend_challenge_pom/tests/checkout_information.tests.js'
+    
+	Checkout overview tests: 
+	testcafe chrome './frontend_challenge_pom/tests/checkout_overview.tests.js'
 
