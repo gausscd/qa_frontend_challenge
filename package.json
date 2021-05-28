@@ -1,0 +1,25 @@
+{
+  "name": "qa_frontend_challenge",
+  "version": "1.0.0",
+  "description": "Frontend challenge for https://www.saucedemo.com/ using Testcafe",
+  "main": "index.js",
+  "homepage": " https://www.saucedemo.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gausscd/wizeline_qa_frontend_challenge"
+  },
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./frontend_challenge_pom/tests",
+    "test-login-chrome": "testcafe chrome ./frontend_challenge_pom/tests/login.tests.js",
+    "test-products-chrome": "testcafe chrome ./frontend_challenge_pom/tests/products.tests.js",
+    "test-shoppingcart-chrome": "testcafe chrome ./frontend_challenge_pom/tests/shoppingcart.tests.js",
+    "test-checkout-information-chrome": "testcafe chrome ./frontend_challenge_pom/tests/checkout_information.tests.js",
+    "test-checkout-overview-chrome": "testcafe chrome ./frontend_challenge_pom/tests/checkout_overview.tests.js",
+    "test-checkout-complete-order-chrome": "testcafe chrome ./frontend_challenge_pom/tests/checkout_complete_order.tests.js"
+  },
+  "author": "Felipe Herrera Marin",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.14.2"
+  }
+}
